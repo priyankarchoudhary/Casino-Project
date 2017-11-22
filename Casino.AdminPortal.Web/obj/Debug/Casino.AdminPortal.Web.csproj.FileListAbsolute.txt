@@ -1,0 +1,118 @@
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Casino.AdminPortal.Web.dll.config
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Casino.AdminPortal.Web.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Casino.AdminPortal.Web.pdb
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Antlr3.Runtime.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Casino.AdminPortal.Shared.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\EntityFramework.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Nagarro.EmployeePortal.Web.Shared.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Newtonsoft.Json.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Owin.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Helpers.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Mvc.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Optimization.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Razor.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.WebPages.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\WebGrease.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Nagarro.EmployeePortal.Web.Shared.pdb
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Casino.AdminPortal.Shared.pdb
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Helpers.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Mvc.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Optimization.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Razor.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.WebPages.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Antlr3.Runtime.pdb
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Newtonsoft.Json.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\EntityFramework.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\obj\Debug\Casino.AdminPortal.Web.csprojResolveAssemblyReference.cache
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\obj\Debug\Casino.AdminPortal.Web.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Web\obj\Debug\Casino.AdminPortal.Web.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Casino.AdminPortal.Web.dll.config
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Casino.AdminPortal.Web.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Casino.AdminPortal.Web.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Antlr3.Runtime.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Casino.AdminPortal.Shared.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\EntityFramework.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\EntityFramework.SqlServer.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Nagarro.EmployeePortal.Web.Shared.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Newtonsoft.Json.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Owin.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Helpers.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Mvc.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Optimization.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Razor.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.WebPages.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.WebPages.Razor.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\WebGrease.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Nagarro.EmployeePortal.Web.Shared.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Casino.AdminPortal.Shared.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Helpers.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Mvc.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Optimization.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Razor.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.WebPages.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.WebPages.Razor.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Antlr3.Runtime.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Newtonsoft.Json.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\EntityFramework.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\EntityFramework.SqlServer.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\obj\Debug\Casino.AdminPortal.Web.csprojResolveAssemblyReference.cache
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\obj\Debug\Casino.AdminPortal.Web.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\obj\Debug\Casino.AdminPortal.Web.pdb

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0C066A6-2175-430A-9212-DE246A97B7D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Casino.AdminPortal.EntityDataModel</RootNamespace>
+    <AssemblyName>Casino.AdminPortal.EntityDataModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Converter\EntityConverter.cs" />
+    <Compile Include="EntityModel\CasinoCustomer.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CasinoCustomer.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityModel\CasinoCustomer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CasinoCustomer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityModel\CasinoCustomer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CasinoCustomer.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="EntityModel\CustomerTable.cs">
+      <DependentUpon>CasinoCustomer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityModel\SearchCustomer_Result.cs">
+      <DependentUpon>CasinoCustomer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Exception\EntityConversionException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Casino.AdminPortal.Shared\Casino.AdminPortal.Shared.csproj">
+      <Project>{f2aebbda-13ec-45ca-b5ef-fb8240db3284}</Project>
+      <Name>Casino.AdminPortal.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="EntityModel\CasinoCustomer.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CasinoCustomer.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="EntityModel\CasinoCustomer.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CasinoCustomer.edmx</DependentUpon>
+      <LastGenOutput>CasinoCustomer.Context.cs</LastGenOutput>
+    </None>
+    <None Include="EntityModel\CasinoCustomer.edmx.diagram">
+      <DependentUpon>CasinoCustomer.edmx</DependentUpon>
+    </None>
+    <None Include="EntityModel\CasinoCustomer.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CasinoCustomer.edmx</DependentUpon>
+      <LastGenOutput>CasinoCustomer.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(ProjectDir)\bin\debug\*.dll" "$(SolutionDir)OutputBin\"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

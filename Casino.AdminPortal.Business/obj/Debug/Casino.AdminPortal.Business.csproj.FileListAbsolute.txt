@@ -1,0 +1,25 @@
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.Business.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.Business.pdb
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.BusinessFacades.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.Shared.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\FluentValidation.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.BusinessFacades.pdb
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.Shared.pdb
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\FluentValidation.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Business\obj\Debug\Casino.AdminPortal.Business.csprojResolveAssemblyReference.cache
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Business\obj\Debug\Casino.AdminPortal.Business.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Business\obj\Debug\Casino.AdminPortal.Business.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.Business.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.Business.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.BusinessFacades.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.Data.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.Shared.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\FluentValidation.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.EntityDataModel.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\EntityFramework.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.BusinessFacades.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\Casino.AdminPortal.Shared.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\bin\Debug\FluentValidation.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\obj\Debug\Casino.AdminPortal.Business.csprojResolveAssemblyReference.cache
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\obj\Debug\Casino.AdminPortal.Business.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Business\obj\Debug\Casino.AdminPortal.Business.pdb

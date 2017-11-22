@@ -1,0 +1,24 @@
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\Casino.AdminPortal.EntityDataModel.dll.config
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\Casino.AdminPortal.EntityDataModel.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\Casino.AdminPortal.EntityDataModel.pdb
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\Casino.AdminPortal.Shared.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\EntityFramework.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\Casino.AdminPortal.Shared.pdb
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\EntityFramework.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\obj\Debug\Casino.AdminPortal.EntityDataModel.csprojResolveAssemblyReference.cache
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\obj\Debug\Casino.AdminPortal.EntityDataModel.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\obj\Debug\Casino.AdminPortal.EntityDataModel.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\Casino.AdminPortal.EntityDataModel.dll.config
+D:\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\Casino.AdminPortal.EntityDataModel.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\Casino.AdminPortal.EntityDataModel.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\Casino.AdminPortal.Shared.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\EntityFramework.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\Casino.AdminPortal.Shared.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\EntityFramework.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\obj\Debug\Casino.AdminPortal.EntityDataModel.csprojResolveAssemblyReference.cache
+D:\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\obj\Debug\Casino.AdminPortal.EntityDataModel.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.EntityDataModel\obj\Debug\Casino.AdminPortal.EntityDataModel.pdb

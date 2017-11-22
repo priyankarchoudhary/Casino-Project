@@ -1,0 +1,100 @@
+﻿@model IEnumerable<Casino.AdminPortal.Web.Models.UserModel>
+
+<script type="text/javascript">
+    ShowModelPopUp = function () {
+        console.log("I am inside");
+        window.showModalDialog('/User/OpenModelPopup', "WindowPopup", 'width=400px,height=400px');
+    }
+</script>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DOB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmailId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AccountBalance)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BlockBalance)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerId)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DOB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountBalance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlockBalance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.CustomerId }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })|
+                @Html.ActionLink("Add Money", "AddMoney", new {  id=item })|
+
+            </td>
+            <td>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#@item.CustomerId">Open Modal</button>
+
+                <div id="@item.CustomerId" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                        @using (Ajax.BeginForm("AddMoney", "User", new AjaxOptions { HttpMethod = "post" }))
+                        {
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Recharge</h4>
+                                </div>
+                                <div class="modal-body">
+                                    @Html.TextBoxFor(x => x.FirstOrDefault(y => y.EmailId == @item.EmailId).EmailId)
+                                    @Html.TextBoxFor(x => x.FirstOrDefault(y => y.EmailId == @item.EmailId).RechargeAmount)
+                                </div>
+                                <div class="modal-footer">
+
+                                    @*<button type="submit" class="btn btn-default" data-dismiss="modal">Admit</button>*@
+                                    <button type="submit" , class="btn btn-default">Add Money</button>
+
+                                </div>
+                            </div>
+
+                        }
+                    </div>
+                </div>
+            </td>
+
+        </tr>
+
+    }
+
+</table>

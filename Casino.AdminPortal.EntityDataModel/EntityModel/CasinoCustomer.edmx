@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CustomerPortalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CustomerTable">
+          <Key>
+            <PropertyRef Name="EmailId" />
+          </Key>
+          <Property Name="CustomerName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="DOB" Type="date" Nullable="false" />
+          <Property Name="Contact" Type="nvarchar" MaxLength="11" Nullable="false" />
+          <Property Name="EmailId" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="IdProof" Type="varbinary(max)" Nullable="false" />
+          <Property Name="AccountBalance" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="BlockBalance" Type="int" Nullable="false" />
+          <Property Name="CustomerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <Function Name="SearchCustomer" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CustomerName" Type="nvarchar" Mode="In" />
+          <Parameter Name="Contact" Type="nvarchar" Mode="In" />
+          <Parameter Name="EmailId" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SearchEmployee" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CustomerName" Type="nvarchar" Mode="In" />
+          <Parameter Name="Contact" Type="nvarchar" Mode="In" />
+          <Parameter Name="EmailId" Type="nvarchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="CustomerPortalModelStoreContainer">
+          <EntitySet Name="CustomerTable" EntityType="Self.CustomerTable" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CustomerPortalModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CustomerTable">
+          <Key>
+            <PropertyRef Name="EmailId" />
+          </Key>
+          <Property Name="CustomerName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DOB" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Contact" Type="String" MaxLength="11" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="EmailId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="IdProof" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="AccountBalance" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="BlockBalance" Type="Int32" Nullable="false" />
+          <Property Name="CustomerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityContainer Name="CustomerPortalEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CustomerTables" EntityType="Self.CustomerTable" />
+          <FunctionImport Name="SearchCustomer" ReturnType="Collection(CustomerPortalModel.SearchCustomer_Result)">
+            <Parameter Name="CustomerName" Mode="In" Type="String" />
+            <Parameter Name="Contact" Mode="In" Type="String" />
+            <Parameter Name="EmailId" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SearchEmployee">
+            <Parameter Name="CustomerName" Mode="In" Type="String" />
+            <Parameter Name="Contact" Mode="In" Type="String" />
+            <Parameter Name="EmailId" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="SearchCustomer_Result">
+          <Property Type="String" Name="CustomerName" Nullable="false" MaxLength="50" />
+          <Property Type="DateTime" Name="DOB" Nullable="false" />
+          <Property Type="String" Name="Contact" Nullable="false" MaxLength="11" />
+          <Property Type="String" Name="EmailId" Nullable="false" MaxLength="50" />
+          <Property Type="Binary" Name="IdProof" Nullable="false" />
+          <Property Type="Decimal" Name="AccountBalance" Nullable="false" Precision="18" Scale="2" />
+          <Property Type="Int32" Name="BlockBalance" Nullable="false" />
+          <Property Type="Int32" Name="CustomerId" Nullable="false" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CustomerPortalModelStoreContainer" CdmEntityContainer="CustomerPortalEntities">
+          <EntitySetMapping Name="CustomerTables">
+            <EntityTypeMapping TypeName="CustomerPortalModel.CustomerTable">
+              <MappingFragment StoreEntitySet="CustomerTable">
+                <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+                <ScalarProperty Name="DOB" ColumnName="DOB" />
+                <ScalarProperty Name="Contact" ColumnName="Contact" />
+                <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+                <ScalarProperty Name="IdProof" ColumnName="IdProof" />
+                <ScalarProperty Name="AccountBalance" ColumnName="AccountBalance" />
+                <ScalarProperty Name="BlockBalance" ColumnName="BlockBalance" />
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="SearchCustomer" FunctionName="CustomerPortalModel.Store.SearchCustomer">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="CustomerPortalModel.SearchCustomer_Result">
+                <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+                <ScalarProperty Name="DOB" ColumnName="DOB" />
+                <ScalarProperty Name="Contact" ColumnName="Contact" />
+                <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+                <ScalarProperty Name="IdProof" ColumnName="IdProof" />
+                <ScalarProperty Name="AccountBalance" ColumnName="AccountBalance" />
+                <ScalarProperty Name="BlockBalance" ColumnName="BlockBalance" />
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SearchEmployee" FunctionName="CustomerPortalModel.Store.SearchEmployee" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

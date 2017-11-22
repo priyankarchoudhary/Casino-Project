@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CasinoAdminPortalModelStoreContainer" CdmEntityContainer="CasinoAdminPortalEntities">
+    <EntitySetMapping Name="Players">
+      <EntityTypeMapping TypeName="CasinoAdminPortalModel.Player">
+        <MappingFragment StoreEntitySet="Players">
+          <ScalarProperty Name="PlayerId" ColumnName="PlayerId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="AccountBalance" ColumnName="AccountBalance" />
+          <ScalarProperty Name="IdentityProof" ColumnName="IdentityProof" />
+          <ScalarProperty Name="BlockedAmount" ColumnName="BlockedAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

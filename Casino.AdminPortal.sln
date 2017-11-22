@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{F179E8DB-B023-403A-AFB3-B126BAD35FB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Business Domain", "2.Business Domain", "{084D2120-02E6-474C-BC4B-AB47607913BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Data", "3.Data", "{48C06767-5E22-4CF7-BDA4-74DC1FB7C35D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Shared", "4.Shared", "{A3D22E80-7518-4119-A8C0-C035BBFABF0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino.AdminPortal.Web", "Casino.AdminPortal.Web\Casino.AdminPortal.Web.csproj", "{AFF06503-0528-4DA0-92E6-8A01E5139A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino.AdminPortal.Business", "Casino.AdminPortal.Business\Casino.AdminPortal.Business.csproj", "{7833287F-75EB-4E11-B7D5-4C3B3B8D11DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino.AdminPortal.BusinessFacades", "Casino.AdminPortal.BusinessFacade\Casino.AdminPortal.BusinessFacades.csproj", "{D647C3ED-5AE4-4874-B2D0-29F9A7704347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino.AdminPortal.Data", "Casino.AdminPortal.Data\Casino.AdminPortal.Data.csproj", "{D6149427-8891-4F80-970D-246A24B25854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino.AdminPortal.EntityDataModel", "Casino.AdminPortal.EntityDataModel\Casino.AdminPortal.EntityDataModel.csproj", "{A0C066A6-2175-430A-9212-DE246A97B7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino.AdminPortal.DTOModel", "Casino.AdminPortal.DTOModel\Casino.AdminPortal.DTOModel.csproj", "{BE604611-B6D0-4BCC-9F64-E0969AFF467D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino.AdminPortal.Shared", "Casino.AdminPortal.Shared\Casino.AdminPortal.Shared.csproj", "{F2AEBBDA-13EC-45CA-B5EF-FB8240DB3284}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino.AdminPortal.Web.Shared", "..\Framework\Nagarro.EmployeePortal\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Web.Shared\Casino.AdminPortal.Web.Shared.csproj", "{340463B8-393E-4E7E-960D-E7CF1EFD846A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino.AdminPortal.WebApi", "Casino.AdminPortal.WebApi\Casino.AdminPortal.WebApi.csproj", "{90B4B96B-9172-436B-ABA2-7E4087040B94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFF06503-0528-4DA0-92E6-8A01E5139A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF06503-0528-4DA0-92E6-8A01E5139A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF06503-0528-4DA0-92E6-8A01E5139A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF06503-0528-4DA0-92E6-8A01E5139A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7833287F-75EB-4E11-B7D5-4C3B3B8D11DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7833287F-75EB-4E11-B7D5-4C3B3B8D11DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7833287F-75EB-4E11-B7D5-4C3B3B8D11DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7833287F-75EB-4E11-B7D5-4C3B3B8D11DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D647C3ED-5AE4-4874-B2D0-29F9A7704347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D647C3ED-5AE4-4874-B2D0-29F9A7704347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D647C3ED-5AE4-4874-B2D0-29F9A7704347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D647C3ED-5AE4-4874-B2D0-29F9A7704347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6149427-8891-4F80-970D-246A24B25854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6149427-8891-4F80-970D-246A24B25854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6149427-8891-4F80-970D-246A24B25854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6149427-8891-4F80-970D-246A24B25854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C066A6-2175-430A-9212-DE246A97B7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C066A6-2175-430A-9212-DE246A97B7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C066A6-2175-430A-9212-DE246A97B7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C066A6-2175-430A-9212-DE246A97B7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE604611-B6D0-4BCC-9F64-E0969AFF467D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE604611-B6D0-4BCC-9F64-E0969AFF467D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE604611-B6D0-4BCC-9F64-E0969AFF467D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE604611-B6D0-4BCC-9F64-E0969AFF467D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2AEBBDA-13EC-45CA-B5EF-FB8240DB3284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AEBBDA-13EC-45CA-B5EF-FB8240DB3284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AEBBDA-13EC-45CA-B5EF-FB8240DB3284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AEBBDA-13EC-45CA-B5EF-FB8240DB3284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340463B8-393E-4E7E-960D-E7CF1EFD846A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340463B8-393E-4E7E-960D-E7CF1EFD846A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340463B8-393E-4E7E-960D-E7CF1EFD846A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340463B8-393E-4E7E-960D-E7CF1EFD846A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B4B96B-9172-436B-ABA2-7E4087040B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B4B96B-9172-436B-ABA2-7E4087040B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B4B96B-9172-436B-ABA2-7E4087040B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B4B96B-9172-436B-ABA2-7E4087040B94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFF06503-0528-4DA0-92E6-8A01E5139A25} = {F179E8DB-B023-403A-AFB3-B126BAD35FB8}
+		{7833287F-75EB-4E11-B7D5-4C3B3B8D11DA} = {084D2120-02E6-474C-BC4B-AB47607913BF}
+		{D647C3ED-5AE4-4874-B2D0-29F9A7704347} = {084D2120-02E6-474C-BC4B-AB47607913BF}
+		{D6149427-8891-4F80-970D-246A24B25854} = {48C06767-5E22-4CF7-BDA4-74DC1FB7C35D}
+		{A0C066A6-2175-430A-9212-DE246A97B7D0} = {48C06767-5E22-4CF7-BDA4-74DC1FB7C35D}
+		{BE604611-B6D0-4BCC-9F64-E0969AFF467D} = {A3D22E80-7518-4119-A8C0-C035BBFABF0A}
+		{F2AEBBDA-13EC-45CA-B5EF-FB8240DB3284} = {A3D22E80-7518-4119-A8C0-C035BBFABF0A}
+		{340463B8-393E-4E7E-960D-E7CF1EFD846A} = {F179E8DB-B023-403A-AFB3-B126BAD35FB8}
+		{90B4B96B-9172-436B-ABA2-7E4087040B94} = {F179E8DB-B023-403A-AFB3-B126BAD35FB8}
+	EndGlobalSection
+EndGlobal

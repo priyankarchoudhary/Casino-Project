@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Casino.AdminPortal.Web.Models.UserModel>
+<p>
+    
+</p>
+@*@using (Html.BeginForm("SearchUser", "User", FormMethod.Post))*@
+@using (Ajax.BeginForm("SearchUser", null, new AjaxOptions { UpdateTargetId = "MainElement", InsertionMode = InsertionMode.Replace, HttpMethod = "Post" }, new { id = "formSearch" }))
+{   <div>
+    Name
+    <input type="text" name="nameSearch" id="nameSearch"/>
+    Contact
+    <input type="text" name="contactSearch" id="contactSearch" />
+    EmailId
+    <input type="text" name="emailSearch" id="emailSearch" />
+
+    <button type="submit">Search</button>
+    </div>
+}
+
+@Html.Partial("_ShowPartialView")
+
