@@ -134,6 +134,8 @@ namespace Casino.AdminPortal.Data
                         if (customerDetails.AccountBalance > rupees)
                         {
                             customerDetails.AccountBalance -= rupees;
+                            customerDetails.BlockBalance = Convert.ToInt32(rupees);
+                            
                         }
                         //customerDetails.AccountBalance += rupees;
                         context.SaveChanges();

@@ -21,7 +21,9 @@ D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\Microsoft.Web.Infrastructure
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\Newtonsoft.Json.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\Owin.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Net.Http.Formatting.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.Cors.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.Helpers.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.Http.Cors.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.Http.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.Http.Owin.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.Http.WebHost.dll
@@ -32,10 +34,11 @@ D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.WebPages.Deployme
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.WebPages.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.WebPages.Razor.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\WebGrease.dll
-D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\Newtonsoft.Json.xml
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Net.Http.Formatting.xml
-D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.Helpers.xml
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.Http.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.Http.Cors.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\Newtonsoft.Json.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.Helpers.xml
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.Http.WebHost.xml
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.Mvc.xml
 D:\Casino.AdminPortal\Casino.AdminPortal.WebApi\bin\System.Web.Optimization.xml

@@ -9,6 +9,6 @@ D:\Casino.AdminPortal\Casino.AdminPortal.DTOModel\bin\Debug\Casino.AdminPortal.D
 D:\Casino.AdminPortal\Casino.AdminPortal.DTOModel\bin\Debug\Casino.AdminPortal.DTOModel.pdb
 D:\Casino.AdminPortal\Casino.AdminPortal.DTOModel\bin\Debug\Casino.AdminPortal.Shared.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.DTOModel\bin\Debug\Casino.AdminPortal.Shared.pdb
-D:\Casino.AdminPortal\Casino.AdminPortal.DTOModel\obj\Debug\Casino.AdminPortal.DTOModel.csprojResolveAssemblyReference.cache
 D:\Casino.AdminPortal\Casino.AdminPortal.DTOModel\obj\Debug\Casino.AdminPortal.DTOModel.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.DTOModel\obj\Debug\Casino.AdminPortal.DTOModel.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.DTOModel\obj\Debug\Casino.AdminPortal.DTOModel.csprojResolveAssemblyReference.cache

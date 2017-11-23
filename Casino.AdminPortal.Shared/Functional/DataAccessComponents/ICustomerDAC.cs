@@ -12,6 +12,7 @@ namespace Casino.AdminPortal.Shared
         IList<ICustomerDTO> GetAllCustomer();
         IList<ICustomerDTO> SearchCustomer(string name, string email, string contact);
         ICustomerDTO AddMoneyCustomer(string email, decimal rupees);
+
         ICustomerDTO GetCustomerByContact(string contact);
         ICustomerDTO GetCustomerByEmail(string email);
         ICustomerDTO WinningAmount(string email, decimal deposited , int multipliedBy);

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Casino.AdminPortal.DTOModel
 {
-    [ViewModelMapping("Casino.AdminPortal.WebApi.Models.UserModelAPI", MappingType.TotalExplicit)]
+    //[ViewModelMapping("Casino.AdminPortal.WebApi.Models.UserModelAPI", MappingType.TotalExplicit)]
     [ViewModelMapping("Casino.AdminPortal.Web.Models.UserModel", MappingType.TotalExplicit)]
     [EntityMapping("Casino.AdminPortal.EntityDataModel.EntityModel.Player", MappingType.TotalExplicit)]
     public class CustomerDTO : DTOBase, ICustomerDTO
