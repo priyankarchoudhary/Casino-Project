@@ -21,7 +21,7 @@ namespace Casino.AdminPortal.Business
             OperationResult<ICustomerDTO> createCustomerReturnValue = null;
             try
             {
-                EmployeePortalValidationResult validationResult = Validator<CustomerValidator, ICustomerDTO>.Validate(custDTO, "Common,Create,CreateUserEmail");
+                EmployeePortalValidationResult validationResult = Validator<CustomerValidator, ICustomerDTO>.Validate(custDTO, "Common");
 
                 if (!validationResult.IsValid)
                 {
@@ -29,8 +29,8 @@ namespace Casino.AdminPortal.Business
                 }
                 else
                 {
-                    ICustomerDAC employeeDAC = (ICustomerDAC)DACFactory.Instance.Create(DACType.CustomerDAC);
-                    ICustomerDTO returnedUserDTO = employeeDAC.CreateCustomer(custDTO);
+                    ICustomerDAC customerDAC = (ICustomerDAC)DACFactory.Instance.Create(DACType.CustomerDAC);
+                    ICustomerDTO returnedUserDTO = customerDAC.CreateCustomer(custDTO);
                     if (returnedUserDTO != null)
                     {
                         createCustomerReturnValue = OperationResult<ICustomerDTO>.CreateSuccessResult(returnedUserDTO, "Usercreated successfully");
@@ -165,9 +165,38 @@ namespace Casino.AdminPortal.Business
             //throw new NotImplementedException();
         }
 
-        public OperationResult<ICustomerDTO> WinningAmount(string email, decimal deposited, int multipliedBy)
+        public OperationResult<ICustomerDTO> WinningAmount(string email, decimal deposited, decimal multipliedBy)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            OperationResult<ICustomerDTO> ReturnValue = null;
+            try
+            {
+                //EmployeePortalValidationResult validationResult = Validator<EmployeeValidator, IUserDTO>.Validate(userDTO, "Common");
+
+                ICustomerDAC userDAC = (ICustomerDAC)DACFactory.Instance.Create(DACType.CustomerDAC);
+                ICustomerDTO returnedDTO = userDAC.WinningAmount(email,deposited,multipliedBy);
+                if (returnedDTO != null)
+                {
+                    ReturnValue = OperationResult<ICustomerDTO>.CreateSuccessResult(returnedDTO, "User retreived successfully");
+                }
+                else
+                {
+                    ReturnValue = OperationResult<ICustomerDTO>.CreateFailureResult("Insertion failed!");
+                }
+
+            }
+            catch (DACException dacEx)
+            {
+                ReturnValue = OperationResult<ICustomerDTO>.CreateErrorResult(dacEx.Message, dacEx.StackTrace);
+            }
+            catch (Exception ex)
+            {
+                ExceptionManager.HandleException(ex);
+                ReturnValue = OperationResult<ICustomerDTO>.CreateErrorResult(ex.Message, ex.StackTrace);
+            }
+            return ReturnValue;
+ 
+
         }
 
         public OperationResult<ICustomerDTO> BlockMoneyCustomer(string email, decimal rupees)

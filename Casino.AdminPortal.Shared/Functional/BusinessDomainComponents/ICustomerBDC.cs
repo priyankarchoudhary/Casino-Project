@@ -14,7 +14,7 @@ namespace Casino.AdminPortal.Shared
         OperationResult<ICustomerDTO> AddMoneyCustomer(string email, decimal rupees);
         OperationResult<ICustomerDTO> GetCustomerByContact(string contact);
         OperationResult<ICustomerDTO> GetCustomerByEmail(string email);
-        OperationResult<ICustomerDTO> WinningAmount(string email, decimal deposited, int multipliedBy);
+        OperationResult<ICustomerDTO> WinningAmount(string email, decimal deposited, decimal multipliedBy);
         OperationResult<ICustomerDTO> BlockMoneyCustomer(string email, decimal rupees);
     }
 }

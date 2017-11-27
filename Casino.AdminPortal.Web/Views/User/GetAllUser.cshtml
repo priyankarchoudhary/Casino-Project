@@ -2,19 +2,28 @@
 <p>
     
 </p>
-@*@using (Html.BeginForm("SearchUser", "User", FormMethod.Post))*@
-@using (Ajax.BeginForm("SearchUser", null, new AjaxOptions { UpdateTargetId = "MainElement", InsertionMode = InsertionMode.Replace, HttpMethod = "Post" }, new { id = "formSearch" }))
-{   <div>
-    Name
-    <input type="text" name="nameSearch" id="nameSearch"/>
-    Contact
-    <input type="text" name="contactSearch" id="contactSearch" />
-    EmailId
-    <input type="text" name="emailSearch" id="emailSearch" />
 
-    <button type="submit">Search</button>
-    </div>
+@using (Ajax.BeginForm("SearchUser", null, new AjaxOptions { UpdateTargetId = "MainElement", InsertionMode = InsertionMode.Replace, HttpMethod = "Post" }, new { id = "formSearch" }))
+{   
+        <tr>
+            <td>    Name
+<input type="text" name="nameSearch" id="nameSearch" /></td>
+            <td>    Contact
+<input type="text" name="contactSearch" id="contactSearch" /></td>
+        </tr>
+
+        <tr>
+            <td>    EmailId
+<input type="text" name="emailSearch" id="emailSearch" /></td>
+            <td>
+                <button type="submit">Search</button></td>
+        </tr>
+
+
+   
 }
+
+<div id="listing"></div>
 
 @Html.Partial("_ShowPartialView")
 

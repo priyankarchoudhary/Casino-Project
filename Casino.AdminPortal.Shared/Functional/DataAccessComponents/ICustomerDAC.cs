@@ -15,7 +15,7 @@ namespace Casino.AdminPortal.Shared
 
         ICustomerDTO GetCustomerByContact(string contact);
         ICustomerDTO GetCustomerByEmail(string email);
-        ICustomerDTO WinningAmount(string email, decimal deposited , int multipliedBy);
+        ICustomerDTO WinningAmount(string email, decimal deposited, decimal multipliedBy);
         ICustomerDTO BlockMoneyCustomer(string email, decimal rupees);
     }
 }

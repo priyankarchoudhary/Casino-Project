@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PagedList;
 
 namespace Casino.AdminPortal.Web.Controllers
 {
@@ -61,9 +62,18 @@ namespace Casino.AdminPortal.Web.Controllers
             return PartialView(result);
         }
 
-        [HttpPost]
-        public ActionResult CreateUser(UserModel customerModel)
+
+        [HttpGet]
+        public ActionResult CreateAUser()
         {
+            UserModel result = new UserModel(); 
+            return View(result);
+        }
+
+        [HttpPost]
+        public ActionResult CreateAUser(UserModel customerModel)
+        {
+
             ICustomerFacade userFacade = (ICustomerFacade)FacadeFactory.Instance.Create(FacadeType.CustomerFacade);
             ICustomerDTO userDTOToCreate = (ICustomerDTO)DTOFactory.Instance.Create(DTOType.CustomerDTO);
             HttpPostedFileBase file = Request.Files["ImageData"];
@@ -79,22 +89,59 @@ namespace Casino.AdminPortal.Web.Controllers
                     {
                         ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
                     }
-                    return View();
+                   return View();
                 }
                 return View("../Home/Index");
             }
+            else
+            {
             return View("../Home/Index");
-           
+
+            //return View("CreateAUser", customerModel);
+            }
+
+        }
+
+        [HttpPost]
+        public PartialViewResult CreateUser(UserModel customerModel)
+        {
+
+            ICustomerFacade userFacade = (ICustomerFacade)FacadeFactory.Instance.Create(FacadeType.CustomerFacade);
+            ICustomerDTO userDTOToCreate = (ICustomerDTO)DTOFactory.Instance.Create(DTOType.CustomerDTO);
+            HttpPostedFileBase file = Request.Files["ImageData"];
+            customerModel.IdProof = convertToBytes(file);
+            DTOConverter.FillDTOFromViewModel(userDTOToCreate, customerModel);
+            OperationResult<ICustomerDTO> resultCreate = userFacade.CreateCustomer(userDTOToCreate);
+            if (ModelState.IsValid)
+            {
+                if (resultCreate.ValidationResult != null && resultCreate.ValidationResult.Errors != null)
+                {
+                    IList<EmployeePortalValidationFailure> resultFail = resultCreate.ValidationResult.Errors;
+                    foreach (var item in resultFail)
+                    {
+                        ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                    }
+                    //return View();
+                }
+                //return View("../Home/Index");
+            }
+            //else
+            //{
+            return PartialView("CreateUser", customerModel);
+            //}
+            //return View("../Home/Index");
+
         }
 
 
 
-        public PartialViewResult SearchUser(string nameSearch, string contactSearch, string emailSearch)
+        public ActionResult SearchUser(string nameSearch, string contactSearch, string emailSearch)
         {
             if (nameSearch.Length == 0 && contactSearch.Length == 0 && emailSearch.Length == 0)
             {
                 //return PartialView("GetAllUser");
-                return PartialView("GetAllUser");
+                return RedirectToAction("GetAllUser");
+                
 
             }
             else
@@ -143,8 +190,29 @@ namespace Casino.AdminPortal.Web.Controllers
             ICustomerFacade userFacade = (ICustomerFacade)FacadeFactory.Instance.Create(FacadeType.CustomerFacade);
             OperationResult<ICustomerDTO> resultVal = userFacade.AddMoneyCustomer(EmailId, RechargeAmount);
             //List<UserModel> result = new List<UserModel>();
-            Console.Write("hello");
-            return this.GetAllUser();
+
+            OperationResult<IList<ICustomerDTO>> resultAllCustomers = userFacade.GetAllCustomer();
+            List<UserModel> result = new List<UserModel>();
+            if (resultAllCustomers.IsValid())
+            {
+                foreach (var item in resultAllCustomers.Data)
+                {
+                    UserModel userData = new UserModel();
+                    DTOConverter.FillViewModelFromDTO(userData, item);
+                    result.Add(userData);
+                }
+            }
+            else
+            {
+                IList<EmployeePortalValidationFailure> resultFail = resultAllCustomers.ValidationResult.Errors;
+                foreach (var item in resultFail)
+                {
+
+                }
+            }
+            return PartialView("GetAllUser", result);
+
+            //return Redirect();
         }
 
 

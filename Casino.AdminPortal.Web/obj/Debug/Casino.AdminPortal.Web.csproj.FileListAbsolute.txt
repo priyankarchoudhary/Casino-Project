@@ -80,6 +80,8 @@ D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Microsoft.Web.Infrastructure.dl
 D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Nagarro.EmployeePortal.Web.Shared.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Newtonsoft.Json.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Owin.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\PagedList.dll
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\PagedList.Mvc.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Helpers.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Mvc.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Optimization.dll
@@ -90,6 +92,8 @@ D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.WebPages.Razor.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\WebGrease.dll
 D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Nagarro.EmployeePortal.Web.Shared.pdb
 D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\Casino.AdminPortal.Shared.pdb
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\PagedList.xml
+D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\PagedList.Mvc.xml
 D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Helpers.xml
 D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Mvc.xml
 D:\Casino.AdminPortal\Casino.AdminPortal.Web\bin\System.Web.Optimization.xml

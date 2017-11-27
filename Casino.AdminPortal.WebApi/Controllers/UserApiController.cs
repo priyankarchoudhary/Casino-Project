@@ -63,11 +63,36 @@ namespace Casino.AdminPortal.WebApi.Controllers
             return newUser;
 
         }
-        
+
+        [HttpPatch]
         public UserApiModel BlockMoneyOnBet(string email, decimal rupees)
         {
-            ICustomerFacade userFacade = (ICustomerFacade)FacadeFactory.Instance.Create(FacadeType.CustomerFacade);
+                ICustomerFacade userFacade = (ICustomerFacade)FacadeFactory.Instance.Create(FacadeType.CustomerFacade);
             OperationResult<ICustomerDTO> resultAllCustomers = userFacade.BlockMoneyCustomer(email,rupees);
+            UserApiModel newUser = new UserApiModel();
+            if (resultAllCustomers.IsValid())
+            {
+
+                newUser.CustomerName = resultAllCustomers.Data.CustomerName;
+                newUser.EmailId = resultAllCustomers.Data.EmailId;
+                newUser.AccountBalance = resultAllCustomers.Data.AccountBalance;
+                newUser.BlockBalance = resultAllCustomers.Data.BlockBalance;
+
+            }
+            else
+            {
+                // IList<EmployeePortalValidationFailure> resultFail = resultAllCustomers.ValidationResult.Errors;
+
+            }
+            return newUser;
+
+        }
+
+        [HttpPatch]
+        public UserApiModel WinningMoneyOnBet(string email, decimal deposited, decimal multipliedBy)
+        {
+            ICustomerFacade userFacade = (ICustomerFacade)FacadeFactory.Instance.Create(FacadeType.CustomerFacade);
+            OperationResult<ICustomerDTO> resultAllCustomers = userFacade.WinningAmount(email, deposited, multipliedBy);
             UserApiModel newUser = new UserApiModel();
             if (resultAllCustomers.IsValid())
             {

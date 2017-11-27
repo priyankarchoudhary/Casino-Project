@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     <script src='@Url.Content("~/scripts/jquery-1.10.2.js")'></script>
-    <script src='@Url.Content("~/scripts/jquery.unobtrusive-ajax.min.js")'></script>
+    <script src='@Url.Content("~/Scripts/jquery.validate.js")'></script>
+    <script src='@Url.Content("~/scripts/jquery.unobtrusive-ajax.js")'></script>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -23,7 +24,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Ajax.ActionLink("Register New Customer", "CreateUser", "User",
+                    <li>@Ajax.ActionLink("Register", "CreateAUser", "User",
 
                         new AjaxOptions {
                             
@@ -32,7 +33,7 @@
                             HttpMethod = "Get"
                         })</li>
                     <li>
-                        @Ajax.ActionLink("Get Customers", "GetAllUser", "User",
+                        @Ajax.ActionLink("User List", "GetAllUser", "User",
                         new AjaxOptions
                         {
 

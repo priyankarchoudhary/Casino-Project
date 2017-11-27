@@ -55,9 +55,11 @@ namespace Casino.AdminPortal.BusinessFacades
             return userBDC.GetCustomerByEmail(email);
         }
 
-        public OperationResult<ICustomerDTO> WinningAmount(string email, decimal deposited, int multipliedBy)
+        public OperationResult<ICustomerDTO> WinningAmount(string email, decimal deposited, decimal multipliedBy)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            ICustomerBDC userBDC = (ICustomerBDC)BDCFactory.Instance.Create(BDCType.CustomerBDC);
+            return userBDC.WinningAmount(email,deposited,multipliedBy);
         }
 
         public OperationResult<ICustomerDTO> BlockMoneyCustomer(string email, decimal rupees)

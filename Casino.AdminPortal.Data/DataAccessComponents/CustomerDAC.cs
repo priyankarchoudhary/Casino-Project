@@ -212,9 +212,36 @@ namespace Casino.AdminPortal.Data
             return retVal;
         }
 
-        public ICustomerDTO WinningAmount(string email, decimal deposited, int multipliedBy)
+        public ICustomerDTO WinningAmount(string email, decimal deposited, decimal multipliedBy)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            ICustomerDTO retVal = null;
+
+            try
+            {
+                using (CustomerPortalEntities context = new CustomerPortalEntities())
+                {
+                    var customerDetails = context.CustomerTables.FirstOrDefault(item => item.EmailId == email);
+                    if (customerDetails != null)
+                    {
+                        ICustomerDTO custDTO = (ICustomerDTO)DTOFactory.Instance.Create(DTOType.CustomerDTO);
+                        retVal = (ICustomerDTO)DTOFactory.Instance.Create(DTOType.CustomerDTO);
+                        customerDetails.AccountBalance = (customerDetails.AccountBalance + (deposited*multipliedBy));
+                        customerDetails.BlockBalance = 0;
+                        context.SaveChanges();
+                        EntityDataModel.EntityConverter.FillDTOFromEntity(customerDetails, custDTO);
+                        retVal = custDTO;
+                    }
+
+                }
+            }
+            catch (Exception ex)
+            {
+                ExceptionManager.HandleException(ex);
+                throw new DACException(ex.Message);
+            }
+            return retVal;
         }
     }
 }
